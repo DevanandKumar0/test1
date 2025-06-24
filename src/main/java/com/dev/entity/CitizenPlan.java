@@ -18,16 +18,16 @@ public class CitizenPlan {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private String 	citizenId;
+	private Integer citizenId;
 	private String citizenName;
 	private String gender;
 	private String planName ;
 	private String planStatus;
 	private LocalDate planStartDate;
-	private LocalDate planEnDate;
+	private LocalDate planEndDate;
 	private Double benefitAmt;
 	private String denialReason;
-	private Double terminatedDate;
+	private LocalDate terminatedDate;
 	private String terminationRsn;
 	
 	
